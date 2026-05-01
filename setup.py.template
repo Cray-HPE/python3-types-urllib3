@@ -1,0 +1,28 @@
+from setuptools import setup
+
+name = "types-urllib3"
+description = "Typing stubs for urllib3"
+long_description = '''
+INSERT_DESCRIPTION_HERE
+'''.lstrip()
+
+setup(name=name,
+      version="0.0.57",
+      description=description,
+      long_description=long_description,
+      long_description_content_type="text/markdown",
+      url="https://github.com/Cray-HPE/python3-types-urllib3",
+      project_urls={
+          "GitHub": "https://github.com/Cray-HPE/python3-types-urllib3",
+          "Issue tracker": "https://github.com/Cray-HPE/python3-types-urllib3/issues",
+      },
+      install_requires=[],
+      packages=['urllib3-stubs'],
+      package_data={'urllib3-stubs': ['__init__.pyi', '_collections.pyi', 'connection.pyi', 'connectionpool.pyi', 'contrib/__init__.pyi', 'contrib/socks.pyi', 'exceptions.pyi', 'fields.pyi', 'filepost.pyi', 'packages/__init__.pyi', 'poolmanager.pyi', 'request.pyi', 'response.pyi', 'util/__init__.pyi', 'util/connection.pyi', 'util/queue.pyi', 'util/request.pyi', 'util/response.pyi', 'util/retry.pyi', 'util/ssl_.pyi', 'util/ssl_match_hostname.pyi', 'util/timeout.pyi', 'util/url.pyi', 'METADATA.toml', 'py.typed']},
+      license="Apache-2.0 license",
+      classifiers=[
+          "License :: OSI Approved :: Apache Software License",
+          "Programming Language :: Python :: 3",
+          "Typing :: Stubs Only",
+      ]
+)

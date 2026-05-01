@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: types-urllib3
+Version: 0.0.57
+Summary: Typing stubs for urllib3
+Home-page: https://github.com/Cray-HPE/python3-types-urllib3
+License: Apache-2.0 license
+Project-URL: GitHub, https://github.com/Cray-HPE/python3-types-urllib3
+Project-URL: Issue tracker, https://github.com/Cray-HPE/python3-types-urllib3/issues
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Typing :: Stubs Only
+Description-Content-Type: text/markdown
+
+INSERT_DESCRIPTION_HERE
