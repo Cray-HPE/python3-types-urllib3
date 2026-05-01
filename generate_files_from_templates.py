@@ -32,7 +32,7 @@ from pathlib import Path
 import sys
 from typing import NoReturn
 
-TARGET_FILES = [ 'setup.py', 'PKG_INFO' ]
+TARGET_FILES = [ 'setup.py', 'PKG-INFO' ]
 DESCRIPTION_FILE = "package_description.md"
 DESCRIPTION_TARGET_LINE = "INSERT_DESCRIPTION_HERE\n"
 
