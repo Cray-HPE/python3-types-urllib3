@@ -40,6 +40,7 @@ all : runbuildprep lint pymod
 pymod: pymod_build pymod_validate
 
 runbuildprep:
+		./gen_version.sh
 		./generate_files_from_templates.py
 		./cms_meta_tools/scripts/runBuildPrep.sh
 
